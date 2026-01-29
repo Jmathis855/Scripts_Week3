@@ -1,4 +1,13 @@
 # Shell Scripts and More Bash Commands
+tar command makes everything go into one file
+Gzip makes it into a zip file 
+  Ex. tar -czf DreamFileName.tar.gz sourcepath
+    The c flag is create, z is zip, and f is file name
+Tar -xzf FileName will let us expand 
+echo "text" can be used to just get the command line to print something
+mv can be used to either move files or rename them
+wildcards are cool, can be used to list everything
+  Ex. "ls *.txt" can be used to list all txt files in a locaiton
 
 ## Variables
 
