@@ -1,5 +1,15 @@
 # Shell Scripts and More Bash Commands
 
+3 things we always want to do when setting up a script:
+  1. Script file should almost have the .sh extension, sh stands for shell 
+  2. The very top line should be #! then right after shoud be the file path to bash Ex. #! /bin/bash
+  3. You'll notice that it won't be color coded after creation, this is because it's just plain text. You have to update it to have execute permissions using chmod to fix this.
+
+    Comment lines just start with # and can have whatever
+    1st set of 3 is owner of the file,  2nd set is everyone in the same group,
+
+3 letters, u (user/owner), g (group), o (others)
+Cannot run a script just like newScript.sh because it will assume it's in the root. Instead you need to do ./newScript.sh so that it knows it's in your current directory
 ## Variables
 
 You can create a variable and assign it a value using `=`
