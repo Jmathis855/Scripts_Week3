@@ -15,7 +15,7 @@ Cannot run a script just like newScript.sh because it will assume it's in the ro
 You can create a variable and assign it a value using `=`
 
 `myVariable=2`
-
+    The = sign is called an assignment operator, (all the math signs are such as +-*/)
 Note that bash is sensitive to spaces! Don't leave any spaces before or after your equals sign when assigning a value to a variable.
 
 You can print the value of a variable by using `echo` and prefacing the name of the variable with `$`
@@ -31,6 +31,7 @@ In general, bash isn't very good for mathematical operations, but it can be done
 - `echo $(( 3 * 6 ))`
 - `echo $(( 20 / 3 ))`
 - `echo $(( 20 % 3 ))`
+-       the % is called a modulo, which gives us the remainder. so 9 $ 4 = 1 because 9/4 =2 with a remainder of 1. Can be useful to tell if something is a multiple of another value.
 
 Compare the output of these last two lines? What's going on?
 
@@ -47,7 +48,7 @@ echo $myVar
 echo $myVar
 ```
 
-What does the `++` operator do?
+What does the `++` operator do? **it just adds 1, -- operator subtracts 1**
 
 ## Downloading a file from the command line
 
