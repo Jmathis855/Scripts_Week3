@@ -79,6 +79,7 @@ Wildcards and additional symbols can be used to make searches general or more sp
 will match any string that starts with `fi`.
 
 `grep ^five test.txt`
+    the ^ is an anchor used to keep something at the beginning of the line
 
 will only look for the string `five` if it is at the very beginning of a line.
 
